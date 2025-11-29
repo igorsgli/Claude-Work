@@ -49,3 +49,26 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Virtual Environment
+src/ml_env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Data files (if large)
+# Allow CSV in src/data for datasets
+!src/data/*.csv
+*.pkl
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
